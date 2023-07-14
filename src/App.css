@@ -10,6 +10,36 @@
 }
 
 .done {
-  color: red;
+  color: rgb(180, 7, 133);
   font-size: x-large;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(180, 7, 133);
+  border-radius: 50%;
+  animation-name: progress;
+  animation-duration: 60s;
+}
+
+@keyframes progress {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: orange;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: green;
+  }
+  80% {
+    background-color: blue;
+  }
+  100% {
+    background-color: purple;
+  }
 }

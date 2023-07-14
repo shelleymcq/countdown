@@ -17,6 +17,7 @@ function App() {
       ) : (
         <p className="remain">{seconds} seconds remain...</p>
       )}
+      <div className="circle"></div>
     </>
   );
 }
